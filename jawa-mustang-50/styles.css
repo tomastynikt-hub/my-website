@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, 'Times New Roman', serif; color: #f5efe2; }
+/* Photo background with gradient fallback if rider.jpg is missing */
+body { background: linear-gradient(160deg, #1d2a4a 0%, #3a4a6b 45%, #6b6a7a 100%); }
+.bg {
+  position: fixed; inset: 0;
+  background-image: url("rider.jpg");
+  background-size: cover; background-position: center 30%;
+}
+.shade { position: fixed; inset: 0; background: linear-gradient(rgba(10,12,20,.55), rgba(10,12,20,.78)); }
+.content { position: relative; max-width: 640px; margin: 0 auto; padding: 1rem 1rem 3rem; }
+nav a { color: #ffd479; text-decoration: none; }
+header { text-align: center; padding: 12vh 0 4vh; }
+.kicker { letter-spacing: 3px; font-size: .8rem; color: #ffd479; margin: 0; font-family: system-ui, sans-serif; }
+h1 { font-size: clamp(2.6rem, 9vw, 4.5rem); margin: .4rem 0; text-shadow: 0 2px 20px rgba(0,0,0,.6); }
+.sub { color: #e8e0cf; font-style: italic; }
+.card { background: rgba(12,14,22,.72); border: 1px solid rgba(255,255,255,.15); border-radius: 16px; padding: 1.4rem; margin: 1.2rem 0; backdrop-filter: blur(6px); }
+.card h2 { margin-top: 0; color: #ffd479; font-family: system-ui, sans-serif; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase; }
+table { width: 100%; border-collapse: collapse; }
+td { padding: .5rem .2rem; border-bottom: 1px dashed rgba(255,255,255,.25); }
+td:last-child { text-align: right; color: #ffd479; }
+ul { padding-left: 1.2rem; }
+li { margin: .5rem 0; }
+footer { text-align: center; color: #cfc8b8; font-size: .85rem; }
+footer a { color: #ffd479; }
