@@ -4,7 +4,7 @@ body { margin: 0; font-family: Georgia, 'Times New Roman', serif; color: #f5efe2
 body { background: linear-gradient(160deg, #1d2a4a 0%, #3a4a6b 45%, #6b6a7a 100%); }
 .bg {
   position: fixed; inset: 0;
-  background-image: url("rider.jpg");
+  background-image: url("rider.png");
   background-size: cover; background-position: center 30%;
   filter: none;
 }
