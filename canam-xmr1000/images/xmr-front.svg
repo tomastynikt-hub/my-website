@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <ellipse cx="300" cy="350" rx="240" ry="20" fill="#000" opacity=".45"/>
+  <!-- wheels -->
+  <circle cx="150" cy="290" r="72" fill="#161616"/>
+  <circle cx="150" cy="290" r="72" fill="none" stroke="#3a3a3a" stroke-width="18" stroke-dasharray="12 9"/>
+  <circle cx="150" cy="290" r="30" fill="#e8b04b"/>
+  <circle cx="450" cy="290" r="72" fill="#161616"/>
+  <circle cx="450" cy="290" r="72" fill="none" stroke="#3a3a3a" stroke-width="18" stroke-dasharray="12 9"/>
+  <circle cx="450" cy="290" r="30" fill="#e8b04b"/>
+  <!-- bullbar -->
+  <rect x="200" y="230" width="200" height="16" rx="8" fill="#111"/>
+  <rect x="215" y="180" width="16" height="60" rx="8" fill="#111"/>
+  <rect x="369" y="180" width="16" height="60" rx="8" fill="#111"/>
+  <!-- nose -->
+  <path d="M210 230 L240 150 L360 150 L390 230 Z" fill="#2e2a24" stroke="#e8b04b" stroke-width="3"/>
+  <!-- headlights -->
+  <rect x="248" y="175" width="40" height="26" rx="6" fill="#ffe9a8"/>
+  <rect x="312" y="175" width="40" height="26" rx="6" fill="#ffe9a8"/>
+  <!-- handlebar -->
+  <rect x="230" y="120" width="140" height="12" rx="6" fill="#111"/>
+  <rect x="292" y="132" width="16" height="24" fill="#111"/>
+  <!-- winch -->
+  <rect x="270" y="250" width="60" height="26" rx="6" fill="#0c0c0c" stroke="#e8b04b" stroke-width="2"/>
+  <text x="300" y="268" font-family="sans-serif" font-size="14" font-weight="bold" fill="#e8b04b" text-anchor="middle">3500</text>
+</svg>
