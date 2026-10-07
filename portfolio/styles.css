@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #faf9f7; color: #222; }
+.hero { padding: 4rem 1rem; text-align: center; background: #111; color: #fff; }
+.hero a { color: #ffd479; }
+.btn { display: inline-block; margin-top: 1rem; padding: .6rem 1.2rem; background: #ffd479; color: #111; border-radius: 999px; text-decoration: none; font-weight: 600; }
+main { max-width: 900px; margin: 0 auto; padding: 1rem; }
+.gallery { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.gallery figure { margin: 0; height: 180px; border-radius: 12px; display: flex; align-items: flex-end; padding: .6rem; color: #fff; font-size: .9rem; }
+.g1 { background: linear-gradient(135deg, #667eea, #764ba2); }
+.g2 { background: linear-gradient(135deg, #11998e, #38ef7d); }
+.g3 { background: linear-gradient(135deg, #fc4a1a, #f7b733); }
+.g4 { background: linear-gradient(135deg, #232526, #414345); }
+.g5 { background: linear-gradient(135deg, #cb2d3e, #ef473a); }
+.g6 { background: linear-gradient(135deg, #2193b0, #6dd5ed); }
+footer { text-align: center; padding: 2rem; color: #888; }
+.kicker { font-size: .9rem; }

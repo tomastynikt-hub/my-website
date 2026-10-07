@@ -1,3 +1,8 @@
-# My Website
+# My Websites
 
-Deployed with GitHub Pages.
+Live: https://tomastynikt-hub.github.io/my-website/
+
+- `/` — hub linking all sites
+- `/portfolio/` — photographer portfolio
+- `/kavarna/` — coffee shop landing page
+- `/todo/` — JS todo app
